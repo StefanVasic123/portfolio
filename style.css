@@ -199,25 +199,9 @@ p {
     padding-top: 10px;
 }
 
-#portfolio-section {
-    background: linear-gradient(to left, #04070F, #0A1624);
-    padding-top: 10px;
-}
 
-@media (max-width: 575px) {
-  #portfolio-section .row .column {
-    border: 1px solid white;
-  }
-   #portfolio-section .row:first-child {
-     padding-bottom: 20px;
-   }
-}
 h2 {
     text-align: center;
-}
-#portfolio-h2 {
-    color: white;
-    padding-bottom: 20px;
 }
 
 #about-section, #portfolio-section {
@@ -232,11 +216,17 @@ h2 {
     height: 150px;
 }
 
+#portfolio-h2 {
+  color: white;
+  padding-bottom: 20px;
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
 .row {
     text-align: center;
     color: white;
@@ -249,6 +239,20 @@ h2 {
 
 h4 {
     padding-bottom: 15px;
+}
+
+#portfolio-section {
+  background: linear-gradient(to left, #04070F, #0A1624);
+  padding-top: 10px;
+}
+
+@media (max-width: 575px) {
+#portfolio-section .row .column {
+  border: 1px solid white;
+}
+/*  #portfolio-section .row:first-child {
+   padding-bottom: 20px;
+ } */
 }
 
 #contact-section {

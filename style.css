@@ -202,9 +202,16 @@ p {
 #portfolio-section {
     background: linear-gradient(to left, #04070F, #0A1624);
     padding-top: 10px;
-
 }
 
+@media (max-width: 575px) {
+  #portfolio-section .row .column {
+    border: 1px solid white;
+  }
+   #portfolio-section .row:first-child {
+     padding-bottom: 20px;
+   }
+}
 h2 {
     text-align: center;
 }
@@ -246,6 +253,19 @@ h4 {
 
 #contact-section {
   text-align: center;
+}
+
+@media (max-width: 575px) {
+  #contact-section {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  #contact-section h3 {
+    padding-bottom: 15px;
+  }
+  #contact-section a:last-child {
+    padding-bottom: 10px;
+  }
 }
 
 #footer-menu {

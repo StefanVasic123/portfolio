@@ -197,6 +197,7 @@ p {
 
 .about-text p {
     padding-top: 10px;
+    text-align: center;
 }
 
 
@@ -247,7 +248,7 @@ h4 {
 }
 
 @media (max-width: 575px) {
-#portfolio-section .row .column {
+#portfolio-section .row {
   border: 1px solid white;
 }
 #portfolio-section .row {

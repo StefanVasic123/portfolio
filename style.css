@@ -250,6 +250,9 @@ h4 {
 #portfolio-section .row .column {
   border: 1px solid white;
 }
+#portfolio-section .row {
+  padding-bottom: 20px;
+}
 } 
 
 #contact-section {

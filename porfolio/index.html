@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./index.js"></script>
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo"><img src="./img/LogoMakr_6FiGgD.png" height="50" width="50"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#about-section">About me</a></li>
+        <li><a href="#portfolio-section">Portfolio</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+  </header>
+
+  <section id="hero-section">
+    <div class="hero">
+    <!--  <img src="./img/homepage.jpg" alt="homepagephoto"> -->
+    </div>
+  </section> 
+
+
+    <div id="hero-box">
+      <div id="hero-text">
+          <h1>Hello, my name is Stefan</h1>
+          <h2>I'm Front-end Developer</h2>
+     </div>
+    </div>
+    <div id="particles-js"></div> 
+
+    <section id="about-section">
+      <div>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-text">
+        <div class="img-div">
+            <img class="img" src='./img/portfolio-img 1.jpg' width="200" alt="portfolio pic" >
+        </div>
+        <p>   
+          I am a motivated junior front end developer. Some of the technologies that I use daily in my projects are: <b>HTML</b>, <b>CSS</b>, <b>JAVASCRIPT</b>. <br />
+          I also use the <b>ReactJS</b> library. <br />
+          For styling and prototyping I use <i>Bootstrap</i> and <i>Semantic-ui</i>.<br />
+          Creating with <i>CMS</i> has been around since the beginning of my development journey, I was working on several <b>Wordpress</b> based projects with implementation of <i>Woocommerce</i> plugin.<br />
+          Because of wide usage of mobile phones, first of all in my projects is implementation of <i>media queries</i> for better user experience<br />
+          On <i>Github</i> I storing and publishing projects. Also I use <i>git</i> for commitments on the React apps. <br />
+          Some other tools thet I use in developing process are: <i>Axios</i> - for handling api requests. <i>Animation.js</i> - particles on hero section. And also <i>Local Storage</i>.
+          I can create an HTML page from scratch, styling it and add some dynamic with javascript. Also, I can implement back-end-like logic on web apps with the usage of local storage.
+          With no problem, I can create dynamic, state-based components with React or webshops with WooCommerce. Examples of my work you can see below.
+        </p>
+      </div>  
+    </section>
+    
+    <section id="portfolio-section">
+      <h2 id="portfolio-h2">Portfolio</h2>
+      <div class="row">
+        <div class="column">
+            <h4>To-do-list</h4>
+            <p>Web App <br /> reactjs/semantic-ui (development phase)</p>
+            <a href="https://stefanvasic123.github.io/todolist/">live preview</a><br/>
+            <a class="preview" href="https://github.com/StefanVasic123/todolist">github link</a>
+        </div>
+        <div class="column">
+          <h4>UpTime</h4>
+          <p>Web App <br /> html/css/javascript (development phase)</p>
+          <a href="https://stefanvasic123.github.io/UpTimeBeta/">live preview</a><br/>
+          <a class="preview" href="https://github.com/StefanVasic123/UpTimeBeta">github link</a>
+        </div>
+      </div>
+      <div class="row">
+          <div class="column">
+              <h4>Mediator</h4>
+              <p>Web App <br /> reactjs/bootstrap (development phase)</p>
+              <a href="https://stefanvasic123.github.io/mediator/">live preview</a><br/>
+              <a  class="preview" href="https://github.com/StefanVasic123/mediator">github link</a>
+          </div>
+          <div class="column">
+            <h4>Hit Song</h4>
+            <p>Landing Page <br /> html/css (development phase)</p>
+            <a href="https://stefanvasic123.github.io/hitsong/">live preview</a><br/>
+            <a  class="preview" href="https://github.com/StefanVasic123/hitsong">github link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <h2>Contact</h2>
+      <h3>You can contact me on email: vasicstefan123@gmail.com</h3>
+      <h3>or on my social accounts</h3>
+        <a href="https://github.com/StefanVasic123">
+          <img src="./img/githublogo.svg" width="25" height="25">
+        </a>
+        <a href="https://www.facebook.com/stefan.vasic.7545">
+          <img src="./img/facebooklogo.png" width="25" height="25">
+        </a>
+        <a href="https://medium.com/@stefvask">
+          <img src="./img/mediumlogo.png" width="25" height="25">
+        </a>
+    </section>
+
+    <footer id="footer-menu">
+      <div class="left-footer">
+        <p class="copy"><i>Copyright&copy SV 2019</i></p>
+      </div>
+      <div class="right-footer">
+          <ul class="menu-bottom">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about-section">About me</a></li>
+              <li><a href="#portfolio-section">Portfolio</a></li>
+            </ul>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('particles.json loaded...');
+      })
+    </script>
+
+  <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js">
+    </script>
+    <script src="animation.js"></script> -->
+
+
+
+<!-- https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js -->
+
+</body>
+</html>

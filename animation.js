@@ -13,10 +13,6 @@ tl.fromTo(hero, 1, {height: "0%"}, {height: "80%", ease: Power2.easeInOut})
     3, 
     {width: "100%"}, 
     {width: "0%", ease: Power2.easeInOut},)
-/*.fromTo(particlesJS, 
-    1.2, 
-    {x: "-100%"}, 
-    {x: "0%", ease: Power2.easeInOut}, "-=1.2")*/
 .fromTo(
     logo, 1.5, {opacity: 0, x: 30}, {opacity: 1, x: 0}, "-=1.5")
 .fromTo(

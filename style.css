@@ -294,14 +294,14 @@ p {
     padding-top: 15px;
   }
   #about-section {
-    margin-top: 180px;
+    margin-top: 200px;
   }
 }
 
 /* 23" 1920 x 1080 */
 @media screen and (max-width: 1921px) and (min-width: 1919px) and (min-height: 1079px) {
   .header {
-    padding-top: 10px;
+    padding-bottom: 20px;
   }
   #about-section {
     margin-top: 150px;
@@ -311,7 +311,7 @@ p {
 /* 22" 1680 x 1050 */
 @media screen and (max-width: 1681px) and (min-width: 1679px) and (min-height: 1049px) {
   .header {
-    padding-top: 10px;
+    padding-bottom: 18px;
   }
   #about-section {
     margin-top: 130px;
@@ -321,7 +321,7 @@ p {
 /* 20" 1600 x 900 */
 @media screen and (max-width: 1601px) and (min-width: 1599px) and (min-height: 899px) {
   .header {
-    padding-top: 5px;
+    padding-bottom: 15px;
   }
   #about-section {
     margin-top: 80px;
@@ -331,10 +331,10 @@ p {
 /* 19" 1440 x 900 */
 @media screen and (max-width: 1441px) and (min-width: 1439px) and (min-height: 899px) {
   .header {
-    padding-top: 5px;
+    padding-bottom: 10px;
   }
   #about-section {
-    margin-top: 60px;
+    margin-top: 80px;
   }
 }
 
@@ -348,7 +348,7 @@ p {
 /* 13" 1024 x 800 */
 @media screen and (max-width: 1025px) and (min-width: 1023px) and (min-height: 799px) {
   #about-section {
-    margin-top: 180px;
+    margin-top: 300px;
   }
   .header {
     padding-bottom: 40px;
@@ -368,17 +368,17 @@ p {
 /* Apple iPad pro 1366 x 1024 */
 @media screen and (max-width: 1367px) and (min-width: 1365px) and (min-height: 1023px) {
   #about-section {
-    margin-top: 80px;
+    margin-top: 110px;
   }
   .header {
-    padding-bottom: 15px;
+    padding-bottom: 22px;
   }
 }
 
 /* Nexus 9 1024 x 768 */
 @media screen and (max-width: 1025px) and (min-width: 1023px) and (min-height: 767px) {
   #about-section {
-    margin-top: -60px;
+    margin-top: 20px;
   }
 }
 

@@ -296,13 +296,15 @@ p {
   }
   #about-section {
     margin-top: 230px;
+    padding-top: 30px;
   }
 }
 
 /* 23" 1920 x 1080 */
 @media screen and (max-width: 1921px) and (min-width: 1919px) and (min-height: 1079px) {
   .header {
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   #about-section {
     margin-top: 150px;
@@ -355,8 +357,8 @@ p {
     margin-top: 340px;
   }
   .header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 

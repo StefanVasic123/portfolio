@@ -292,6 +292,7 @@ p {
 @media screen and (max-width: 1921px) and (min-width: 1919px) and (min-height: 1199px) {
   .header {
     padding-top: 22px;
+    padding-bottom: 15px;
   }
   #about-section {
     margin-top: 200px;
@@ -312,6 +313,7 @@ p {
 @media screen and (max-width: 1681px) and (min-width: 1679px) and (min-height: 1049px) {
   .header {
     padding-top: 18px;
+    padding-bottom: 15px;
   }
   #about-section {
     margin-top: 140px;
@@ -322,6 +324,7 @@ p {
 @media screen and (max-width: 1601px) and (min-width: 1599px) and (min-height: 899px) {
   .header {
     padding-bottom: 15px;
+    padding-top: 10px;
   }
   #about-section {
     margin-top: 90px;
@@ -332,9 +335,10 @@ p {
 @media screen and (max-width: 1441px) and (min-width: 1439px) and (min-height: 899px) {
   .header {
     padding-bottom: 10px;
+    padding-top: 7px;
   }
   #about-section {
-    margin-top: 80px;
+    margin-top: 90px;
   }
 }
 
@@ -348,7 +352,7 @@ p {
 /* 13" 1024 x 800 */
 @media screen and (max-width: 1025px) and (min-width: 1023px) and (min-height: 799px) {
   #about-section {
-    margin-top: 330px;
+    margin-top: 340px;
   }
   .header {
     padding-top: 40px;
@@ -372,13 +376,14 @@ p {
   }
   .header {
     padding-top: 22px;
+    padding-bottom: 20px;
   }
 }
 
 /* Nexus 9 1024 x 768 */
 @media screen and (max-width: 1025px) and (min-width: 1023px) and (min-height: 767px) {
   #about-section {
-    margin-top: 45px;
+    margin-top: 55px;
   }
 }
 

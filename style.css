@@ -292,11 +292,10 @@ p {
 @media screen and (max-width: 1921px) and (min-width: 1919px) and (min-height: 1199px) {
   .header {
     padding-top: 22px;
-    padding-bottom: 15px;
+    padding-bottom: 22px;
   }
   #about-section {
-    margin-top: 230px;
-    padding-top: 30px;
+    margin-top: 260px;
   }
 }
 

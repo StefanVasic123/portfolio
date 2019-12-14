@@ -286,12 +286,99 @@ p {
     padding-top: 10px;
     color: #04070F;
 }
-@media screen and (max-width: 1025px) and (min-width: 1023px) {
+
+
+/* 24" 1920 x 1200*/
+@media screen and (max-width: 1921px) and (min-width: 1919px) and (min-height: 1199px) {
+  .header {
+    padding-top: 15px;
+  }
   #about-section {
-    margin-top: 230px;
+    margin-top: 180px;
+  }
+}
+
+/* 23" 1920 x 1080 */
+@media screen and (max-width: 1921px) and (min-width: 1919px) and (min-height: 1079px) {
+  .header {
+    padding-top: 10px;
+  }
+  #about-section {
+    margin-top: 150px;
+  }
+}
+
+/* 22" 1680 x 1050 */
+@media screen and (max-width: 1681px) and (min-width: 1679px) and (min-height: 1049px) {
+  .header {
+    padding-top: 10px;
+  }
+  #about-section {
+    margin-top: 130px;
+  }
+}
+
+/* 20" 1600 x 900 */
+@media screen and (max-width: 1601px) and (min-width: 1599px) and (min-height: 899px) {
+  .header {
+    padding-top: 5px;
+  }
+  #about-section {
+    margin-top: 80px;
+  }
+}
+
+/* 19" 1440 x 900 */
+@media screen and (max-width: 1441px) and (min-width: 1439px) and (min-height: 899px) {
+  .header {
+    padding-top: 5px;
+  }
+  #about-section {
+    margin-top: 60px;
+  }
+}
+
+/* 15" 1366 x 768 */
+@media screen and (max-width: 1367px) and (min-width: 1364px) and (min-height: 767px) {
+  #about-section {
+    margin-top: 40px;
+  }
+}
+
+/* 13" 1024 x 800 */
+@media screen and (max-width: 1025px) and (min-width: 1023px) and (min-height: 799px) {
+  #about-section {
+    margin-top: 180px;
   }
   .header {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+  }
+}
+
+/* 10" 1024 x 600 */
+@media screen and (max-width: 1025px) and (min-width: 1023px) and (min-height: 799px) {
+  #about-section {
+    margin-top: 120px;
+  }
+  .header {
+    padding-bottom: 30px;
+  }
+}
+
+/* Apple iPad pro 1366 x 1024 */
+@media screen and (max-width: 1367px) and (min-width: 1365px) and (min-height: 1023px) {
+  #about-section {
+    margin-top: 80px;
+  }
+  .header {
+    padding-bottom: 15px;
+  }
+}
+
+/* Nexus 9 1024 x 768 */
+@media screen and (max-width: 1025px) and (min-width: 1023px) and (min-height: 767px) {
+  #about-section {
+    margin-top: -60px;
   }
 }
 
